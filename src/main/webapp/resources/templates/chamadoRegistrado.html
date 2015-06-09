@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Registro concluído</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'id: ' + ${chamado.id}" />
+    <p th:text="'titulo: ' + ${chamado.titulo}" />
+    <a href="/greeting">O seu chamado foi registrado. Não se preocupe, já já alguém vai dar uma olhada.</a>
+</body>
+</html>
