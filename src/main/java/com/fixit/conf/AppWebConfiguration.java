@@ -1,6 +1,8 @@
+package com.fixit.conf;
 
-import edu.furb.fixit.controller.HomeController;
-import edu.furb.fixit.dao.ChamadoDao;
+
+import com.fixit.controller.HomeController;
+import com.fixit.dao.ChamadoDao;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.format.datetime.DateFormatter;

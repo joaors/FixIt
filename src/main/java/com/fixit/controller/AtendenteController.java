@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.furb.fixit.controller;
+package com.fixit.controller;
 
-import edu.furb.fixit.dao.AtendenteDao;
-import edu.furb.fixit.model.Atendente;
+import com.fixit.dao.AtendenteDao;
+import com.fixit.model.Atendente;
 import java.util.List;
 import java.util.Map;
 import org.springframework.ui.Model;

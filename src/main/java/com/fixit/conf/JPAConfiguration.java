@@ -1,3 +1,5 @@
+package com.fixit.conf;
+
 
 import java.util.Properties;
 import javax.persistence.EntityManagerFactory;

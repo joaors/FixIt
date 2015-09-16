@@ -3,11 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.furb.fixit.dao;
+package com.fixit.dao;
 
-import edu.furb.fixit.model.Atendente;
-import edu.furb.fixit.model.Cliente;
-import edu.furb.fixit.model.Produto;
+import com.fixit.model.Produto;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -19,18 +17,17 @@ import org.springframework.stereotype.Repository;
  * @author joao
  */
 @Repository
-public class AtendenteDao extends AbstractDAO<Atendente>{
+public class ProdutoDao extends AbstractDAO<Produto>{
     
     @PersistenceContext
-    private EntityManager manager;
-
+    private EntityManager manager;   
     
     @Transactional
-    public List<Atendente> getList() {
+    public List<Produto> getList() {
 	return manager.createQuery(
-			"Select p from Atendente p ",
-			Atendente.class).getResultList();        
-    }
+			"Select p from Produto p ",
+			Produto.class).getResultList();        
+    }    
 
     @Override
     public EntityManager getManager() {
@@ -38,9 +35,8 @@ public class AtendenteDao extends AbstractDAO<Atendente>{
     }
 
     @Override
-    public Class<Atendente> getClassType() {
-        return Atendente.class;
+    public Class<Produto> getClassType() {
+        return Produto.class;
     }
-
 
 }

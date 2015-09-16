@@ -1,3 +1,5 @@
+package com.fixit.conf;
+
 import javax.servlet.Filter;
 import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletContext;

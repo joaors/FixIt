@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.furb.fixit.dao;
+package com.fixit.dao;
 
-import edu.furb.fixit.model.Atendimento;
+import com.fixit.model.Atendimento;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

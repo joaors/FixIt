@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.furb.fixit.dao;
+package com.fixit.dao;
 
-import edu.furb.fixit.model.Atendimento;
-import edu.furb.fixit.model.Chamado;
+import com.fixit.model.Atendimento;
+import com.fixit.model.Chamado;
 import java.io.Serializable;
 import java.util.List;
 import javax.persistence.EntityManager;

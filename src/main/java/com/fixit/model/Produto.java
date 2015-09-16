@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.furb.fixit.model;
+package com.fixit.model;
 
-import java.io.Serializable;
 import java.util.Objects;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,7 +16,7 @@ import javax.persistence.Id;
  * @author joao
  */
 @Entity
-public class Atendente implements BaseModel{
+public class Produto implements BaseModel {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -25,12 +24,7 @@ public class Atendente implements BaseModel{
     
     private String descricao;
     
-    public Atendente(){}
-
-    @Override
-    public Integer getId() {
-        return id;
-    }
+    public Produto(){}
 
     public void setId(int id) {
         this.id = id;
@@ -58,10 +52,15 @@ public class Atendente implements BaseModel{
         }
         return Objects.equals(this, obj);    
     }
-    
+           
     @Override
     public String toString() {
         return descricao;
+    }
+
+    @Override
+    public Integer getId() {
+        return id;
     }
     
 }

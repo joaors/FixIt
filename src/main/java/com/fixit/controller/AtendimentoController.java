@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.furb.fixit.controller;
+package com.fixit.controller;
 
-import edu.furb.fixit.dao.AtendenteDao;
-import edu.furb.fixit.dao.AtendimentoDAO;
-import edu.furb.fixit.dao.ChamadoDao;
-import edu.furb.fixit.dao.ClienteDao;
-import edu.furb.fixit.dao.ProdutoDao;
-import edu.furb.fixit.model.Atendimento;
-import edu.furb.fixit.model.Chamado;
+import com.fixit.dao.AtendenteDao;
+import com.fixit.dao.AtendimentoDAO;
+import com.fixit.dao.ChamadoDao;
+import com.fixit.dao.ClienteDao;
+import com.fixit.dao.ProdutoDao;
+import com.fixit.model.Atendimento;
+import com.fixit.model.Chamado;
 import java.util.List;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
